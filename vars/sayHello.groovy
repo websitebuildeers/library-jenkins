@@ -1,3 +1,3 @@
-def call(String name = 'Student') {
-    echo "Hello ${name}, this message comes from the shared library!"
+def call(String name, String course, String batch = 'Oct-2026') {
+    echo "Hello ${name}, welcome to ${course} (Batch: ${batch})"
 }
